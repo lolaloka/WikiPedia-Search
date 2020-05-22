@@ -1,0 +1,9 @@
+<form (submit)="onsubmit($event)">
+  <div class="form-group my-3">
+    <input
+      class="form-control"
+      placeholder="Search For Title or Text"
+      (input)="onInput($event.target.value)"
+    />
+  </div>
+</form>
